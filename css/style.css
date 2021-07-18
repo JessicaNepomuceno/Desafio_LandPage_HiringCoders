@@ -48,11 +48,13 @@ html {
 #idIcons {
   margin-right: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .elementHeader-menu {
   margin-right: auto;
   margin-left: auto;
+  cursor: pointer;
 }
 
 #idMenu {
@@ -70,6 +72,7 @@ html {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  cursor: pointer;
 }
 
 /* Estilização Seção de categorias de produtos  */
@@ -83,6 +86,7 @@ html {
   margin-left: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .elementSectionLeadDefault {
@@ -90,9 +94,15 @@ html {
   flex-direction: row;
   justify-content: flex-end;
   width: 70%;
-  height: 300px;
+  height: 350px;
   margin-bottom: 50px;
   background-color: #f5e6d8;
+}
+
+.contentFormImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .elementSectionLead {
@@ -307,7 +317,11 @@ html {
 }
 
 input {
-  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 25px;
   text-align: center;
   border-radius: 10px;
   background: #f5e6d8;
@@ -320,4 +334,18 @@ input {
   cursor: pointer;
   background: black;
   color: white;
+  align-items: center;
+}
+
+#idcadastrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-family: otomanopee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: black;
+  color: #f5e6d8;
 }

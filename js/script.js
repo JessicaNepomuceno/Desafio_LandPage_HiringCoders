@@ -16,6 +16,15 @@ form.addEventListener('submit', (e) => {
 
   let convertData = JSON.stringify(data);
 
-  localStorage.setItem('Lead', convertData);
+  localStorage.setItem('Lead', convertData)
+
+  let container = document.getElementById('contentForm')
+
+  let cadastrado = `<p id="idcadastrado"> Cadastrado! Seu cupom foi enviado.</p>`
+
+  setTimeout(() => {
+    container.innerHTML = cadastrado
+  }, 500)
 
 })
+
