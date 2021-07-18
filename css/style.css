@@ -212,6 +212,104 @@ html {
   height: 40px;
   background: #f5e6d8;
   align-items: center;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 30px;
+  cursor: pointer;
+}
+
+.elementSectionProdutosDefault {
+  display: flex;
+  flex-direction: column;
+}
+
+.elementSectionProdutosText {
+  margin-left: 300px;
+  margin-right: auto;
+}
+
+#idText {
+  font-family: dancing;
+  font-size: 50px;
+}
+
+.elementSectionProdutos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.elementSectionProdutosInfos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  background: #f5e6d8;
+  height: 35px;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.elementSectionProdutosFilhos {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.elementSectionProdutosInfosIcons {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#idPreco {
+  font-family: dancing;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.elementFooterDefault {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #f5e6d8;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.elementFooterInstitucional {
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.elementFooterRedesSociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.elementFooterRedesSociaisFilhas {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#idTextFooter {
+  font-family: otomanopee;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#idTextFooterInfos {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#idTextFooterInfosDois {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
