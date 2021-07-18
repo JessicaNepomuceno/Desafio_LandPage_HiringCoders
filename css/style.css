@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+.section-container {
+  height: 100vh;
+  width: 100%;
+}
+*/
+
+/* Importação de font family */
+@font-face {
+  font-family: dancing;
+  src: url(../fonts/fonte_dancing/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: otomanopee;
+  src: url(../fonts/fonte_otomanopee/OtomanopeeOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: port;
+  src: url(../fonts/fonte_Port/PortLligatSlab-Regular.ttf);
+}
+
+/* Estilização do Cabeçalho */
+.elementHeaderDefault {
+  align-items: center;
+  display: flex;
+  height: 90px;
+}
+
+.elementHeader {
+  background-color: #f5e6d8;
+}
+
+.elementHeader-icons {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idIcons {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.elementHeader-menu {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idMenu {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.elementHeader-marca {
+  width: 80%;
+}
+
+#idMarca {
+  font-family: dancing;
+  font-size: 50px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Estilização Seção de categorias de produtos  */
+.elementSectionProductDefault {
+  display: flex;
+  align-items: center;
+}
+
+.elementSectionProduct {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.elementSectionLeadDefault {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+  height: 300px;
+  margin-bottom: 50px;
+  background-color: #f5e6d8;
+}
+
+.elementSectionLead {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#idOff {
+  font-family: otomanopee;
+  font-size: 80px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idOff-sub {
+  font-family: otomanopee;
+  font-size: 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idCadastreText {
+  font-family: otomanopee;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idCadastreText-sub {
+  font-family: otomanopee;
+  font-size: 18px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#idCadastreText-bottomForm {
+  font-family: otomanopee;
+  font-size: 10px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form input {
+  outline: none;
+  font-size: 15px;
+  font-family: otomanopee;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.elementSectionBeneficiosDefault {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elementSectionBeneficios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#idTextBeneficios {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: otomanopee;
+  font-size: 20px;
+  text-align: center;
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconBeneficios {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#descricaoBenef {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: port;
+  font-size: 15px;
+  text-align: center;
+}
+
+#idSaibaMais {
+  font-family: dancing;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bottomSaibaMais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  background: #f5e6d8;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
