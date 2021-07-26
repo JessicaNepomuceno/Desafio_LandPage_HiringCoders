@@ -206,6 +206,12 @@ html {
   text-align: center;
 }
 
+#idFinalizar {
+  font-family: otomanopee;
+  font-size: 20px;
+  text-align: center;
+}
+
 .bottomSaibaMais {
   display: flex;
   flex-direction: row;
@@ -220,9 +226,35 @@ html {
   cursor: pointer;
 }
 
+.bottomFinalizar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 40px;
+  background: #f5e6d8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .elementSectionProdutosDefault {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.elementSectionProdutosDefault2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .elementSectionProdutosText {
@@ -249,7 +281,8 @@ html {
   justify-content: center;
   margin-top: 15px;
   background: #f5e6d8;
-  height: 35px;
+  height: auto;
+  width: auto;
   align-items: center;
   border-radius: 30px;
 }
@@ -268,6 +301,19 @@ html {
   font-family: dancing;
   font-size: 17px;
   cursor: pointer;
+  margin-top: 3px;
+}
+
+#idNome {
+  font-family: otomanopee;
+  font-size: 17px;
+}
+
+#idProd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .elementFooterDefault {
@@ -331,6 +377,13 @@ input {
 }
 
 #idEnviar {
+  cursor: pointer;
+  background: black;
+  color: white;
+  align-items: center;
+}
+
+#idAddQuant {
   cursor: pointer;
   background: black;
   color: white;
